@@ -1,0 +1,9 @@
+Device pin	Die pin
+vd		ua[0]
+vpwr		VPWR
+out		uo_out[0]
+out_buff	ua[1]
+clk		clk
+ib		ua[2]
+vts		ua[3]
+gnd		VGND
