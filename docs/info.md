@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-The PTAT sensor allows temperature detection. It sends a voltage value `vts` to its output, which is buffered `out_buff`. Next, there is a Mixed-Signal Σ − ∆ block to convert the voltage value into digital pulses through sigma- delta modulation on `out`.
+The PTAT sensor allows temperature detection. It sends a voltage value `vts` to its output, which is buffered `out_buff`. Next, there is a Mixed-Signal Σ − ∆ block to convert the voltage value into digital pulses through sigma- delta modulation on `out` .
 
 
 ## How to test
