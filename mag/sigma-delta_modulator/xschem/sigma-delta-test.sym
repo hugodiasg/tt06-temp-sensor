@@ -1,0 +1,40 @@
+v {xschem version=3.0.0 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -130 -70 130 -70 {}
+L 4 -130 70 130 70 {}
+L 4 -130 -70 -130 70 {}
+L 4 130 -70 130 70 {}
+L 4 -150 0 -130 0 {}
+L 7 70 70 70 90 {}
+L 7 110 -90 110 -70 {}
+L 7 40 -90 40 -70 {}
+L 7 -110 -90 -110 -70 {}
+L 7 130 0 150 0 {}
+L 7 80 -90 80 -70 {}
+L 7 -110 70 -110 90 {}
+B 5 67.5 87.5 72.5 92.5 {name=gnd_d dir=inout }
+B 5 107.5 -92.5 112.5 -87.5 {name=vpwr dir=inout }
+B 5 37.5 -92.5 42.5 -87.5 {name=clk dir=inout }
+B 5 -112.5 -92.5 -107.5 -87.5 {name=vd dir=inout }
+B 5 147.5 -2.5 152.5 2.5 {name=out dir=inout }
+B 5 -152.5 -2.5 -147.5 2.5 {name=in dir=in }
+B 5 77.5 -92.5 82.5 -87.5 {name=reset_b_dff dir=inout }
+B 5 -112.5 87.5 -107.5 92.5 {name=gnd dir=inout }
+T {@symname} -67.5 -6 0 0 0.3 0.3 {}
+T {@name} 135 -82 0 0 0.2 0.2 {}
+T {gnd_d} 74 65 1 1 0.2 0.2 {}
+T {vpwr} 106 -65 3 1 0.2 0.2 {}
+T {clk} 45 -64 0 1 0.2 0.2 {}
+T {vd} -105 -64 0 1 0.2 0.2 {}
+T {out} 125 -4 0 1 0.2 0.2 {}
+T {in} -125 -4 0 0 0.2 0.2 {}
+T {reset_b_dff} 76 -65 3 1 0.2 0.2 {}
+T {gnd} -106 65 1 1 0.2 0.2 {}
+T {TEST} -40 40 0 0 0.4 0.4 {}

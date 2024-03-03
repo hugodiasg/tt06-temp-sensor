@@ -1,0 +1,19 @@
+** sch_path: /foss/designs/temp-sensor/sigma-delta_modulator/xschem/sigma-delta.sch
+.subckt sigma-delta in gnd clk out reset_b_dff vpwr vd
+*.PININFO in:I gnd:B clk:B out:B reset_b_dff:B vpwr:B vd:B
+XR2 Q in_int gnd sky130_fd_pr__res_xhigh_po_0p35 L=36 mult=1 m=1
+XR1 in_int in gnd sky130_fd_pr__res_xhigh_po_0p35 L=36 mult=1 m=1
+XN1 out_comp in_comp gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XP1 out_comp in_comp vd vd sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+x1 clk out_comp reset_b_dff GND GND VPWR VPWR Q out sky130_fd_sc_hd__dfrbp_1
+XR3 in_comp in_int gnd sky130_fd_pr__res_xhigh_po_0p35 L=18 mult=1 m=1
+XC1 in_int gnd sky130_fd_pr__cap_mim_m3_1 W=27.196 L=27.196 m=1
+XC2 in_comp gnd sky130_fd_pr__cap_mim_m3_1 W=27.196 L=27.196 m=1
+**** begin user architecture code
+
+.include /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+
+**** end user architecture code
+.ends
+.end

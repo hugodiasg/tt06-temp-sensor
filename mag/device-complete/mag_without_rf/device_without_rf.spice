@@ -1,0 +1,160 @@
+* NGSPICE file created from device_without_rf.ext - technology: sky130A
+
+.subckt device_without_rf gnd clk vts ib out_buff vd out vpwr
+X0 gnd a_15881_829# a_15815_855# gnd sky130_fd_pr__nfet_01v8 ad=0.125 pd=1.01 as=0.0669 ps=0.75 w=0.42 l=0.15
+X1 vpwr a_15706_855# a_15881_829# vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.213 pd=1.67 as=0.0567 ps=0.69 w=0.42 l=0.15
+X2 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 ad=1.45 pd=10.6 as=20.7 ps=173 w=5 l=1
+X3 a_15815_855# a_14625_855# a_15706_855# gnd sky130_fd_pr__nfet_01v8 ad=0.0669 pd=0.75 as=0.0711 ps=0.755 w=0.36 l=0.15
+X4 a_15046_855# sigma-delta_0.x1.D vpwr vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.0651 pd=0.73 as=0.109 ps=1.36 w=0.42 l=0.15
+X5 a_16688_5320# a_16854_3988# gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X6 buffer_0.a buffer_0.a buffer_0.a gnd sky130_fd_pr__nfet_01v8 ad=0.465 pd=3.62 as=0.96 ps=7.28 w=1.5 l=0.15
+X7 sensor_0.a sensor_0.b gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X8 sensor_0.b sensor_0.b gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X9 a_15430_3152# a_15596_2320# gnd sky130_fd_pr__res_xhigh_po_0p35 l=2
+X10 vd buffer_0.b out_buff vd sky130_fd_pr__pfet_01v8 ad=2.17 pd=15.3 as=2.17 ps=15.3 w=15 l=1
+X11 a_14791_855# a_14625_855# gnd gnd sky130_fd_pr__nfet_01v8 ad=0.109 pd=1.36 as=0.0567 ps=0.69 w=0.42 l=0.15
+X12 a_15546_5320# sigma-delta_0.in_int gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X13 vd buffer_0.a buffer_0.a vd sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X14 a_15046_855# sigma-delta_0.x1.D gnd gnd sky130_fd_pr__nfet_01v8 ad=0.066 pd=0.745 as=0.221 ps=1.89 w=0.42 l=0.15
+X15 out_buff buffer_0.d sky130_fd_pr__cap_mim_m3_1 l=15 w=30
+X16 gnd sensor_0.b vtd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X17 sensor_0.c sensor_0.c sensor_0.c vd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=4.64 ps=36.6 w=2 l=1
+X18 buffer_0.d buffer_0.d buffer_0.d vd sky130_fd_pr__pfet_01v8 ad=4.35 pd=30.6 as=17.4 ps=122 w=15 l=1
+X19 a_15403_855# a_15359_1097# a_15237_855# gnd sky130_fd_pr__nfet_01v8 ad=0.0441 pd=0.63 as=0.14 ps=1.1 w=0.42 l=0.15
+X20 sigma-delta_0.in_int a_14600_2320# gnd sky130_fd_pr__res_xhigh_po_0p35 l=2
+X21 gnd ib ib gnd sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X22 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=1
+X23 a_14550_5320# a_14716_3988# gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X24 ib ib ib gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.58 ps=5.16 w=1 l=1
+X25 vpwr a_15359_1097# a_15249_1221# vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.0703 pd=0.755 as=0.116 ps=0.97 w=0.42 l=0.15
+X26 vts vtd vtd vts sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=1
+X27 gnd sensor_0.b sensor_0.b gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X28 a_16356_5320# a_16522_3988# gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X29 gnd clk a_14625_855# gnd sky130_fd_pr__nfet_01v8 ad=0.0567 pd=0.69 as=0.109 ps=1.36 w=0.42 l=0.15
+X30 vtd vtd vts vts sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=1
+X31 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=1
+X32 a_15098_3152# a_15264_2320# gnd sky130_fd_pr__res_xhigh_po_0p35 l=2
+X33 vpwr clk a_14625_855# vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.0864 pd=0.91 as=0.166 ps=1.8 w=0.64 l=0.15
+X34 gnd sensor_0.b sensor_0.a gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X35 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=1
+X36 vtd sensor_0.b gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X37 vts vtd vtd vts sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=1
+X38 buffer_0.b buffer_0.b vd vd sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X39 gnd sigma-delta_0.in_comp sigma-delta_0.x1.D gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X40 vtd sensor_0.b gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X41 a_17020_5320# sigma-delta_0.x1.Q gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X42 vtd vtd vts vts sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=1
+X43 vd buffer_0.b buffer_0.b vd sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X44 sigma-delta_0.x1.Q a_15881_829# vpwr vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.28 pd=2.56 as=0.213 ps=1.67 w=1 l=0.15
+X45 a_15359_1097# a_15141_855# gnd gnd sky130_fd_pr__nfet_01v8 ad=0.0999 pd=0.985 as=0.135 ps=1.15 w=0.64 l=0.15
+X46 sensor_0.b vtd sensor_0.c vd sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=1
+X47 a_16060_855# vpwr gnd gnd sky130_fd_pr__nfet_01v8 ad=0.064 pd=0.725 as=0.125 ps=1.01 w=0.42 l=0.15
+X48 vts vtd vtd vts sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=1
+X49 vd buffer_0.b buffer_0.b vd sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X50 gnd sensor_0.b sensor_0.b gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X51 buffer_0.a buffer_0.a buffer_0.a vd sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=1.16 ps=10.3 w=1 l=1
+X52 sigma-delta_0.in_comp gnd sky130_fd_pr__cap_mim_m3_1 l=27.2 w=27.2
+X53 vd sensor_0.a sensor_0.a vd sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=1
+X54 buffer_0.a buffer_0.a vd vd sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X55 buffer_0.b vts buffer_0.c gnd sky130_fd_pr__nfet_01v8 ad=0.248 pd=1.83 as=0.248 ps=1.83 w=1.5 l=0.15
+X56 sensor_0.b sensor_0.b gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X57 a_14882_5320# a_15048_3988# gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X58 gnd sensor_0.b sensor_0.a gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X59 vpwr a_15881_829# a_15868_1221# vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.0819 pd=0.81 as=0.0567 ps=0.69 w=0.42 l=0.15
+X60 a_15881_829# a_15706_855# a_16060_855# gnd sky130_fd_pr__nfet_01v8 ad=0.109 pd=1.36 as=0.064 ps=0.725 w=0.42 l=0.15
+X61 vts vts vts vts sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=5.22 ps=41.2 w=2 l=1
+X62 buffer_0.d buffer_0.a vd vd sky130_fd_pr__pfet_01v8 ad=2.17 pd=15.3 as=2.17 ps=15.3 w=15 l=1
+X63 gnd sensor_0.b vtd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X64 vd vtd vts vd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=5
+X65 a_15214_5320# a_15380_3988# gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X66 vd vd vd vd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=17.1 ps=130 w=2 l=1
+X67 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=1
+X68 sensor_0.c vtd sensor_0.b vd sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=1
+X69 out_buff out_buff out_buff vd sky130_fd_pr__pfet_01v8 ad=4.35 pd=30.6 as=17.4 ps=122 w=15 l=1
+X70 sigma-delta_0.in_comp a_15596_2320# gnd sky130_fd_pr__res_xhigh_po_0p35 l=2
+X71 vd vd vd vd sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=1
+X72 sensor_0.a sensor_0.b gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X73 sensor_0.a sensor_0.b gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X74 sensor_0.a sensor_0.a vd vd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=1
+X75 gnd buffer_0.d out_buff gnd sky130_fd_pr__nfet_01v8 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=1
+X76 a_14766_3152# a_14600_2320# gnd sky130_fd_pr__res_xhigh_po_0p35 l=2
+X77 buffer_0.c out_buff buffer_0.a gnd sky130_fd_pr__nfet_01v8 ad=0.248 pd=1.83 as=0.248 ps=1.83 w=1.5 l=0.15
+X78 out_buff buffer_0.d gnd gnd sky130_fd_pr__nfet_01v8 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=1
+X79 a_16024_5320# a_16190_3988# gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X80 sensor_0.b sensor_0.b gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X81 vd vd vd vd sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0 ps=0 w=1 l=1
+X82 gnd buffer_0.d buffer_0.d gnd sky130_fd_pr__nfet_01v8 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=1
+X83 gnd sensor_0.b vtd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X84 a_15249_1221# a_14625_855# a_15141_855# vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.116 pd=0.97 as=0.0724 ps=0.765 w=0.42 l=0.15
+X85 a_16688_5320# a_16522_3988# gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X86 vd vd vd vd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=1
+X87 vd buffer_0.b buffer_0.b vd sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X88 buffer_0.d buffer_0.d gnd gnd sky130_fd_pr__nfet_01v8 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=1
+X89 sensor_0.c sensor_0.a sensor_0.d vd sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=1
+X90 a_15430_3152# a_15264_2320# gnd sky130_fd_pr__res_xhigh_po_0p35 l=2
+X91 sensor_0.d sensor_0.a sensor_0.c vd sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=1
+X92 a_15546_5320# a_15380_3988# gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X93 buffer_0.d buffer_0.d buffer_0.d vd sky130_fd_pr__pfet_01v8 ad=2.17 pd=15.3 as=0 ps=0 w=15 l=1
+X94 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 ad=0.725 pd=5.29 as=0 ps=0 w=5 l=1
+X95 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=1
+X96 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=1
+X97 a_15249_1221# vpwr vpwr vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.109 pd=1.36 as=0.0703 ps=0.755 w=0.42 l=0.15
+X98 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=1
+X99 buffer_0.c buffer_0.c buffer_0.c gnd sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=1.08 ps=8.82 w=1 l=1
+X100 vd vd vd vd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=1
+X101 a_15881_829# vpwr vpwr vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.0567 pd=0.69 as=0.0819 ps=0.81 w=0.42 l=0.15
+X102 vtd vtd vts vts sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=1
+X103 vd buffer_0.a buffer_0.d vd sky130_fd_pr__pfet_01v8 ad=2.17 pd=15.3 as=2.17 ps=15.3 w=15 l=1
+X104 gnd sensor_0.b sensor_0.b gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X105 buffer_0.c ib gnd gnd sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X106 vts vtd vtd vts sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=1
+X107 buffer_0.b buffer_0.b buffer_0.b vd sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=1.16 ps=10.3 w=1 l=1
+X108 vd sigma-delta_0.in_comp sigma-delta_0.x1.D vd sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
+X109 gnd sensor_0.b sensor_0.a gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X110 vtd sensor_0.b gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X111 a_16356_5320# a_16190_3988# gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X112 vtd vtd vts vts sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=1
+X113 sigma-delta_0.x1.Q a_15881_829# gnd gnd sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.169 ps=1.82 w=0.65 l=0.15
+X114 vtd sensor_0.b gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X115 a_15098_3152# a_14932_2320# gnd sky130_fd_pr__res_xhigh_po_0p35 l=2
+X116 a_15706_855# a_14791_855# a_15359_1097# gnd sky130_fd_pr__nfet_01v8 ad=0.0711 pd=0.755 as=0.0999 ps=0.985 w=0.36 l=0.15
+X117 sensor_0.c vtd sensor_0.b vd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=1
+X118 a_15214_5320# a_15048_3988# gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X119 out_buff buffer_0.b vd vd sky130_fd_pr__pfet_01v8 ad=2.17 pd=15.3 as=2.17 ps=15.3 w=15 l=1
+X120 buffer_0.a buffer_0.a vd vd sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X121 gnd a_15881_829# a_16445_855# gnd sky130_fd_pr__nfet_01v8 ad=0.1 pd=0.985 as=0.109 ps=1.36 w=0.42 l=0.15
+X122 a_15868_1221# a_14791_855# a_15706_855# vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.0567 pd=0.69 as=0.0588 ps=0.7 w=0.42 l=0.15
+X123 a_14791_855# a_14625_855# vpwr vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.166 pd=1.8 as=0.0864 ps=0.91 w=0.64 l=0.15
+X124 vd buffer_0.a buffer_0.a vd sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X125 sensor_0.b vtd sensor_0.c vd sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=1
+X126 a_17020_5320# a_16854_3988# gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X127 gnd sensor_0.b sensor_0.b gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X128 sensor_0.d vtd vd vd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=1
+X129 buffer_0.a buffer_0.a vd vd sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X130 a_14882_5320# a_14716_3988# gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X131 a_15141_855# a_14791_855# a_15046_855# vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.0724 pd=0.765 as=0.0651 ps=0.73 w=0.42 l=0.15
+X132 sensor_0.d sensor_0.a sensor_0.c vd sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=1
+X133 vts vts vts vts sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=1
+X134 buffer_0.b buffer_0.b buffer_0.b gnd sky130_fd_pr__nfet_01v8 ad=0.248 pd=1.83 as=0.96 ps=7.28 w=1.5 l=0.15
+X135 sensor_0.b sensor_0.b gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X136 gnd sensor_0.b sensor_0.a gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X137 a_16024_5320# sigma-delta_0.in_int gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X138 a_15141_855# a_14625_855# a_15046_855# gnd sky130_fd_pr__nfet_01v8 ad=0.0594 pd=0.69 as=0.066 ps=0.745 w=0.36 l=0.15
+X139 sensor_0.c sensor_0.a sensor_0.d vd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=1
+X140 gnd sensor_0.b vtd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X141 a_15237_855# a_14791_855# a_15141_855# gnd sky130_fd_pr__nfet_01v8 ad=0.14 pd=1.1 as=0.0594 ps=0.69 w=0.36 l=0.15
+X142 out a_16445_855# vpwr vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.154 ps=1.34 w=1 l=0.15
+X143 vpwr a_15881_829# a_16445_855# vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.154 pd=1.34 as=0.166 ps=1.8 w=0.64 l=0.15
+X144 gnd vpwr a_15403_855# gnd sky130_fd_pr__nfet_01v8 ad=0.135 pd=1.15 as=0.0441 ps=0.63 w=0.42 l=0.15
+X145 out a_16445_855# gnd gnd sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.1 ps=0.985 w=0.65 l=0.15
+X146 a_15706_855# a_14625_855# a_15359_1097# vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.0588 pd=0.7 as=0.129 ps=1.18 w=0.42 l=0.15
+X147 a_14550_5320# out_buff gnd sky130_fd_pr__res_xhigh_po_0p35 l=4.5
+X148 sensor_0.a sensor_0.b gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X149 a_14766_3152# a_14932_2320# gnd sky130_fd_pr__res_xhigh_po_0p35 l=2
+X150 a_15359_1097# a_15141_855# vpwr vpwr sky130_fd_pr__pfet_01v8_hvt ad=0.129 pd=1.18 as=0.218 ps=2.2 w=0.84 l=0.15
+X151 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=1
+X152 buffer_0.b buffer_0.b vd vd sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X153 sigma-delta_0.in_int gnd sky130_fd_pr__cap_mim_m3_1 l=27.2 w=27.2
+X154 out_buff out_buff out_buff vd sky130_fd_pr__pfet_01v8 ad=2.17 pd=15.3 as=0 ps=0 w=15 l=1
+.ends
+

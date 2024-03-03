@@ -1,0 +1,64 @@
+** sch_path: /foss/designs/temp-sensor/ask_modulator/xschem/ask-modulator_tb-ac.sch
+**.subckt ask-modulator_tb-ac
+Vdd vd GND DC 1.8 AC 0
+vtest out GND DC 0 AC 1
+xask1 vd out GND GND ask-modulator
+**** begin user architecture code
+
+
+.control
+destroy all
+save all
+ac lin 1MEG 2G 4G
+set units=degrees
+run
+
+set color0=white
+set color1=black
+
+let i_out=-i(vtest)
+let z_out=out/i_out
+
+plot mag(z_out)
+plot phase(z_out)
+.endc
+
+ .lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  ask-modulator.sym # of pins=4
+** sym_path: /foss/designs/temp-sensor/ask_modulator/xschem/ask-modulator.sym
+** sch_path: /foss/designs/temp-sensor/ask_modulator/xschem/ask-modulator.sch
+.subckt ask-modulator vd out in gnd
+*.iopin gnd
+*.ipin in
+*.opin out
+*.iopin vd
+XC0 vd out sky130_fd_pr__cap_mim_m3_2 W=24.4 L=24.4 MF=3 m=3
+XR1 out vd gnd sky130_fd_pr__res_xhigh_po_0p35 L=5 mult=1 m=1
+XM1 out in gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=2 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+x1 vd out l0
+.ends
+
+
+* expanding   symbol:  /foss/designs/temp-sensor/ask_modulator/xschem/l0.sym # of pins=2
+** sym_path: /foss/designs/temp-sensor/ask_modulator/xschem/l0.sym
+** sch_path: /foss/designs/temp-sensor/ask_modulator/xschem/l0.sch
+.subckt l0 p1 p2
+*.iopin p2
+*.iopin p1
+L0 p1 net3 993p m=1
+Cs1 p1 net1 58.53f m=1
+Cs2 p2 net2 52.93f m=1
+Rs1 net1 GND 24.1 m=1
+Rs2 net2 GND 22.94 m=1
+R1 p2 net3 3.443 m=1
+.ends
+
+.GLOBAL GND
+.end

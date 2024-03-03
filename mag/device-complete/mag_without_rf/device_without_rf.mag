@@ -274,15 +274,15 @@ rect 6900 5150 7280 5300
 rect -20 -20 0 0
 rect 14280 -20 14300 0
 rect 5340 -1820 5360 -1800
-use buffer  buffer_0 /foss/designs/temp-sensor/buffer/mag
+use buffer  buffer_0 ../../buffer/mag
 timestamp 1707919911
 transform 1 0 4468 0 1 -78
 box 900 -1720 7760 5820
-use sensor  sensor_0 /foss/designs/temp-sensor/sensor/mag
+use sensor  sensor_0 ../../sensor/mag
 timestamp 1699935153
 transform 1 0 660 0 1 2500
 box -660 -2500 3580 3000
-use sigma-delta  sigma-delta_0 /foss/designs/temp-sensor/sigma-delta_modulator/mag
+use sigma-delta  sigma-delta_0 ../../sigma-delta_modulator/mag
 timestamp 1707921015
 transform 1 0 17480 0 1 520
 box -3180 -520 12140 5420

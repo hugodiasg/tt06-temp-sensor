@@ -1,0 +1,302 @@
+| units: 500000 tech: sky130A format: MIT
+x a_15881_829# a_15815_855# gnd gnd s=2676,150 d=4998,203 l=30 w=84 x=15881 y=855 sky130_fd_pr__nfet_01v8
+x a_15706_855# a_15881_829# vpwr vpwr s=2268,138 d=8528,334 l=30 w=84 x=16114 y=1221 sky130_fd_pr__pfet_01v8_hvt
+x gnd gnd gnd gnd d=58000,2116 l=200 w=1000 x=8826 y=2830 sky130_fd_pr__nfet_01v8
+x a_14625_855# a_15706_855# a_15815_855# gnd s=2844,151 d=2676,150 l=30 w=72 x=15785 y=855 sky130_fd_pr__nfet_01v8
+x sigma-delta_0.x1.D vpwr a_15046_855# vpwr s=4368,272 d=2604,146 l=30 w=84 x=15028 y=1221 sky130_fd_pr__pfet_01v8_hvt
+x a_16854_4420# a_16688_5320# a_16854_3988# gnd s=30240,1004 d=30240,1004 l=900 w=0 x=16854 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x buffer_0.a buffer_0.a buffer_0.a gnd d=18600,724 l=30 w=300 x=8690 y=4310 sky130_fd_pr__nfet_01v8
+x sensor_0.b gnd sensor_0.a gnd s=11600,516 d=11600,516 l=200 w=200 x=978 y=418 sky130_fd_pr__nfet_01v8
+x sensor_0.b gnd sensor_0.b gnd s=11600,516 d=11600,516 l=200 w=200 x=2498 y=1672 sky130_fd_pr__nfet_01v8
+x a_15596_2752# a_15430_3152# a_15596_2320# gnd s=30240,1004 d=30240,1004 l=400 w=0 x=15596 y=2752 sky130_fd_pr__res_xhigh_po_0p35
+x buffer_0.b out_buff vd vd s=87000,3058 d=87000,3058 l=200 w=3000 x=11080 y=2282 sky130_fd_pr__pfet_01v8
+x a_14625_855# gnd a_14791_855# gnd s=2268,138 d=4368,272 l=30 w=84 x=14761 y=855 sky130_fd_pr__nfet_01v8
+x a_15712_4420# a_15546_5320# sigma-delta_0.in_int gnd s=30240,1004 d=30240,1004 l=900 w=0 x=15712 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x buffer_0.a buffer_0.a vd vd s=5800,258 d=5800,258 l=200 w=200 x=8014 y=5082 sky130_fd_pr__pfet_01v8
+x sigma-delta_0.x1.D gnd a_15046_855# gnd s=8820,378 d=2640,149 l=30 w=84 x=15016 y=855 sky130_fd_pr__nfet_01v8
+x sensor_0.b vtd gnd gnd s=11600,516 d=11600,516 l=200 w=200 x=1358 y=1254 sky130_fd_pr__nfet_01v8
+x sensor_0.c sensor_0.c sensor_0.c vd d=23200,916 l=200 w=400 x=3774 y=3900 sky130_fd_pr__pfet_01v8
+x buffer_0.d buffer_0.d buffer_0.d vd d=174000,6116 l=200 w=3000 x=5822 y=2282 sky130_fd_pr__pfet_01v8
+x a_15359_1097# a_15237_855# a_15403_855# gnd s=5604,220 d=1764,126 l=30 w=84 x=15373 y=855 sky130_fd_pr__nfet_01v8
+x a_14600_2752# sigma-delta_0.in_int a_14600_2320# gnd s=30240,1004 d=30240,1004 l=400 w=0 x=14600 y=2752 sky130_fd_pr__res_xhigh_po_0p35
+x ib ib gnd gnd s=5800,258 d=5800,258 l=200 w=200 x=7924 y=3690 sky130_fd_pr__nfet_01v8
+x gnd gnd gnd gnd d=11600,516 l=200 w=200 x=218 y=836 sky130_fd_pr__nfet_01v8
+x a_14716_4420# a_14550_5320# a_14716_3988# gnd s=30240,1004 d=30240,1004 l=900 w=0 x=14716 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x ib ib ib gnd d=11600,516 l=200 w=200 x=7666 y=3690 sky130_fd_pr__nfet_01v8
+x a_15359_1097# a_15249_1221# vpwr vpwr s=4620,194 d=2814,151 l=30 w=84 x=15359 y=1221 sky130_fd_pr__pfet_01v8_hvt
+x vtd vtd vts vts s=11600,458 d=11600,458 l=200 w=400 x=1826 y=2660 sky130_fd_pr__pfet_01v8
+x sensor_0.b sensor_0.b gnd gnd s=11600,516 d=11600,516 l=200 w=200 x=2118 y=1672 sky130_fd_pr__nfet_01v8
+x a_16522_4420# a_16356_5320# a_16522_3988# gnd s=30240,1004 d=30240,1004 l=900 w=0 x=16522 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x clk a_14625_855# gnd gnd s=4368,272 d=2268,138 l=30 w=84 x=14677 y=855 sky130_fd_pr__nfet_01v8
+x vtd vts vtd vts s=11600,458 d=11600,458 l=200 w=400 x=1568 y=2660 sky130_fd_pr__pfet_01v8
+x gnd gnd gnd gnd d=11600,516 l=200 w=200 x=2878 y=418 sky130_fd_pr__nfet_01v8
+x a_15264_2752# a_15098_3152# a_15264_2320# gnd s=30240,1004 d=30240,1004 l=400 w=0 x=15264 y=2752 sky130_fd_pr__res_xhigh_po_0p35
+x clk a_14625_855# vpwr vpwr s=6656,360 d=3456,182 l=30 w=128 x=14677 y=1171 sky130_fd_pr__pfet_01v8_hvt
+x sensor_0.b sensor_0.a gnd gnd s=11600,516 d=11600,516 l=200 w=200 x=598 y=836 sky130_fd_pr__nfet_01v8
+x gnd gnd gnd gnd d=11600,516 l=200 w=200 x=2878 y=1254 sky130_fd_pr__nfet_01v8
+x sensor_0.b gnd vtd gnd s=11600,516 d=11600,516 l=200 w=200 x=1738 y=1672 sky130_fd_pr__nfet_01v8
+x vtd vtd vts vts s=11600,458 d=11600,458 l=200 w=400 x=1310 y=2660 sky130_fd_pr__pfet_01v8
+x buffer_0.b vd buffer_0.b vd s=5800,258 d=5800,258 l=200 w=200 x=9934 y=5082 sky130_fd_pr__pfet_01v8
+x sigma-delta_0.in_comp sigma-delta_0.x1.D gnd gnd s=11600,516 d=11600,516 l=30 w=200 x=17210 y=474 sky130_fd_pr__nfet_01v8
+x sensor_0.b gnd vtd gnd s=11600,516 d=11600,516 l=200 w=200 x=1738 y=836 sky130_fd_pr__nfet_01v8
+x a_17186_4420# a_17020_5320# sigma-delta_0.x1.Q gnd s=30240,1004 d=30240,1004 l=900 w=0 x=17186 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x vtd vts vtd vts s=11600,458 d=11600,458 l=200 w=400 x=1052 y=2660 sky130_fd_pr__pfet_01v8
+x buffer_0.b buffer_0.b vd vd s=5800,258 d=5800,258 l=200 w=200 x=9676 y=5082 sky130_fd_pr__pfet_01v8
+x a_15881_829# vpwr sigma-delta_0.x1.Q vpwr s=8528,334 d=11200,512 l=30 w=200 x=16278 y=1105 sky130_fd_pr__pfet_01v8_hvt
+x a_15141_855# gnd a_15359_1097# gnd s=5384,230 d=3996,197 l=30 w=128 x=15577 y=855 sky130_fd_pr__nfet_01v8
+x a_6126_29818# vd a_6126_29386# gnd s=30240,1004 d=30240,1004 l=1000 w=0 x=6126 y=29818 sky130_fd_pr__res_xhigh_po_0p35
+x vtd sensor_0.c sensor_0.b vd s=23200,916 d=11600,458 l=200 w=400 x=2614 y=3900 sky130_fd_pr__pfet_01v8
+x sigma-delta_0.in_comp gnd s=69203320,49204 l=5440 w=5440 x=24181 y=680 sky130_fd_pr__cap_mim_m3_2
+x vpwr gnd a_16060_855# gnd s=4998,203 d=2562,145 l=30 w=84 x=16030 y=855 sky130_fd_pr__nfet_01v8
+x vtd vtd vts vts s=23200,916 d=11600,458 l=200 w=400 x=794 y=2660 sky130_fd_pr__pfet_01v8
+x buffer_0.b buffer_0.b vd vd s=5800,258 d=5800,258 l=200 w=200 x=9160 y=5082 sky130_fd_pr__pfet_01v8
+x sensor_0.b sensor_0.b gnd gnd s=11600,516 d=11600,516 l=200 w=200 x=2118 y=836 sky130_fd_pr__nfet_01v8
+x buffer_0.a buffer_0.a buffer_0.a vd d=5800,258 l=200 w=200 x=8530 y=5082 sky130_fd_pr__pfet_01v8
+x sensor_0.a sensor_0.a vd vd s=23200,916 d=11600,458 l=200 w=400 x=814 y=3900 sky130_fd_pr__pfet_01v8
+x buffer_0.a vd buffer_0.a vd s=5800,258 d=5800,258 l=200 w=200 x=8272 y=5082 sky130_fd_pr__pfet_01v8
+x vts buffer_0.c buffer_0.b gnd s=9900,366 d=9900,366 l=30 w=300 x=8882 y=4310 sky130_fd_pr__nfet_01v8
+x sensor_0.b gnd sensor_0.b gnd s=11600,516 d=11600,516 l=200 w=200 x=2498 y=836 sky130_fd_pr__nfet_01v8
+x a_15048_4420# a_14882_5320# a_15048_3988# gnd s=30240,1004 d=30240,1004 l=900 w=0 x=15048 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x sensor_0.b sensor_0.a gnd gnd s=11600,516 d=11600,516 l=200 w=200 x=598 y=1672 sky130_fd_pr__nfet_01v8
+x a_15881_829# a_15868_1221# vpwr vpwr s=2268,138 d=3276,162 l=30 w=84 x=15922 y=1221 sky130_fd_pr__pfet_01v8_hvt
+x a_15706_855# a_16060_855# a_15881_829# gnd s=2562,145 d=4368,272 l=30 w=84 x=16121 y=855 sky130_fd_pr__nfet_01v8
+x vts vts vts vts d=23200,916 l=200 w=400 x=414 y=2660 sky130_fd_pr__pfet_01v8
+x buffer_0.a vd buffer_0.d vd s=87000,3058 d=87000,3058 l=200 w=3000 x=6338 y=2282 sky130_fd_pr__pfet_01v8
+x out_buff buffer_0.d s=21487220,21114 l=3000 w=6000 x=5448 y=-1496 sky130_fd_pr__cap_mim_m3_2
+x sensor_0.b vtd gnd gnd s=11600,516 d=11600,516 l=200 w=200 x=1358 y=418 sky130_fd_pr__nfet_01v8
+x vtd vts vd vd s=23200,916 d=23200,916 l=1000 w=400 x=2574 y=4580 sky130_fd_pr__pfet_01v8
+x a_15380_4420# a_15214_5320# a_15380_3988# gnd s=30240,1004 d=30240,1004 l=900 w=0 x=15380 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x vd vd vd vd d=23200,916 l=200 w=400 x=3754 y=4580 sky130_fd_pr__pfet_01v8
+x gnd gnd gnd gnd d=11600,516 l=200 w=200 x=218 y=1672 sky130_fd_pr__nfet_01v8
+x vtd sensor_0.b sensor_0.c vd s=11600,458 d=11600,458 l=200 w=400 x=2872 y=3900 sky130_fd_pr__pfet_01v8
+x out_buff out_buff out_buff vd d=174000,6116 l=200 w=3000 x=10822 y=2282 sky130_fd_pr__pfet_01v8
+x a_15762_2752# sigma-delta_0.in_comp a_15596_2320# gnd s=30240,1004 d=30240,1004 l=400 w=0 x=15762 y=2752 sky130_fd_pr__res_xhigh_po_0p35
+x vd vd vd vd d=11600,516 l=200 w=200 x=6982 y=5082 sky130_fd_pr__pfet_01v8
+x sensor_0.b gnd sensor_0.a gnd s=11600,516 d=11600,516 l=200 w=200 x=978 y=836 sky130_fd_pr__nfet_01v8
+x sensor_0.b gnd sensor_0.a gnd s=11600,516 d=11600,516 l=200 w=200 x=978 y=1254 sky130_fd_pr__nfet_01v8
+x sensor_0.a vd sensor_0.a vd s=11600,458 d=23200,916 l=200 w=400 x=1072 y=3900 sky130_fd_pr__pfet_01v8
+x buffer_0.d out_buff gnd gnd s=29000,1058 d=29000,1058 l=200 w=1000 x=9858 y=2830 sky130_fd_pr__nfet_01v8
+x vd out s=33881640,42640 l=4880 w=4880 x=740 y=17520 sky130_fd_pr__cap_mim_m3_2
+x a_14766_2752# a_14766_3152# a_14600_2320# gnd s=30240,1004 d=30240,1004 l=400 w=0 x=14766 y=2752 sky130_fd_pr__res_xhigh_po_0p35
+x out_buff buffer_0.a buffer_0.c gnd s=9900,366 d=9900,366 l=30 w=300 x=8786 y=4310 sky130_fd_pr__nfet_01v8
+x buffer_0.d gnd out_buff gnd s=29000,1058 d=29000,1058 l=200 w=1000 x=9600 y=2830 sky130_fd_pr__nfet_01v8
+x a_16190_4420# a_16024_5320# a_16190_3988# gnd s=30240,1004 d=30240,1004 l=900 w=0 x=16190 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x sensor_0.b gnd sensor_0.b gnd s=11600,516 d=11600,516 l=200 w=200 x=2498 y=1254 sky130_fd_pr__nfet_01v8
+x vd vd vd vd d=5800,258 l=200 w=200 x=10450 y=5082 sky130_fd_pr__pfet_01v8
+x buffer_0.d buffer_0.d gnd gnd s=29000,1058 d=29000,1058 l=200 w=1000 x=9342 y=2830 sky130_fd_pr__nfet_01v8
+x sensor_0.b vtd gnd gnd s=11600,516 d=11600,516 l=200 w=200 x=1358 y=1672 sky130_fd_pr__nfet_01v8
+x a_14625_855# a_15141_855# a_15249_1221# vpwr s=2898,153 d=4620,194 l=30 w=84 x=15219 y=1221 sky130_fd_pr__pfet_01v8_hvt
+x a_16688_4420# a_16688_5320# a_16522_3988# gnd s=30240,1004 d=30240,1004 l=900 w=0 x=16688 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x vd vd vd vd d=23200,916 l=200 w=400 x=1814 y=4580 sky130_fd_pr__pfet_01v8
+x buffer_0.b buffer_0.b vd vd s=5800,258 d=5800,258 l=200 w=200 x=10192 y=5082 sky130_fd_pr__pfet_01v8
+x buffer_0.d gnd buffer_0.d gnd s=29000,1058 d=29000,1058 l=200 w=1000 x=9084 y=2830 sky130_fd_pr__nfet_01v8
+x sensor_0.a sensor_0.d sensor_0.c vd s=11600,458 d=11600,458 l=200 w=400 x=1712 y=3900 sky130_fd_pr__pfet_01v8
+x a_15430_2752# a_15430_3152# a_15264_2320# gnd s=30240,1004 d=30240,1004 l=400 w=0 x=15430 y=2752 sky130_fd_pr__res_xhigh_po_0p35
+x sensor_0.a sensor_0.c sensor_0.d vd s=23200,916 d=11600,458 l=200 w=400 x=1454 y=3900 sky130_fd_pr__pfet_01v8
+x a_15546_4420# a_15546_5320# a_15380_3988# gnd s=30240,1004 d=30240,1004 l=900 w=0 x=15546 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x buffer_0.d buffer_0.d buffer_0.d vd d=87000,3058 l=200 w=3000 x=6596 y=2282 sky130_fd_pr__pfet_01v8
+x gnd gnd gnd gnd d=29000,1058 l=200 w=1000 x=10116 y=2830 sky130_fd_pr__nfet_01v8
+x gnd gnd gnd gnd d=11600,516 l=200 w=200 x=2878 y=836 sky130_fd_pr__nfet_01v8
+x gnd gnd gnd gnd d=11600,516 l=200 w=200 x=218 y=418 sky130_fd_pr__nfet_01v8
+x vpwr vpwr a_15249_1221# vpwr s=2814,151 d=4368,272 l=30 w=84 x=15456 y=1221 sky130_fd_pr__pfet_01v8_hvt
+x gnd gnd gnd gnd d=11600,516 l=200 w=200 x=2878 y=1672 sky130_fd_pr__nfet_01v8
+x buffer_0.c buffer_0.c buffer_0.c gnd d=5800,258 l=200 w=200 x=8440 y=3690 sky130_fd_pr__nfet_01v8
+x vd vd vd vd d=23200,916 l=200 w=400 x=434 y=3900 sky130_fd_pr__pfet_01v8
+x vpwr vpwr a_15881_829# vpwr s=3276,162 d=2268,138 l=30 w=84 x=16030 y=1221 sky130_fd_pr__pfet_01v8_hvt
+x vtd vts vtd vts s=11600,458 d=23200,916 l=200 w=400 x=2600 y=2660 sky130_fd_pr__pfet_01v8
+x buffer_0.a buffer_0.d vd vd s=87000,3058 d=87000,3058 l=200 w=3000 x=6080 y=2282 sky130_fd_pr__pfet_01v8
+x sigma-delta_0.in_int gnd s=69203320,49204 l=5440 w=5440 x=17801 y=680 sky130_fd_pr__cap_mim_m3_2
+x sensor_0.b sensor_0.b gnd gnd s=11600,516 d=11600,516 l=200 w=200 x=2118 y=1254 sky130_fd_pr__nfet_01v8
+x ib gnd buffer_0.c gnd s=5800,258 d=5800,258 l=200 w=200 x=8182 y=3690 sky130_fd_pr__nfet_01v8
+x vtd vtd vts vts s=11600,458 d=11600,458 l=200 w=400 x=2342 y=2660 sky130_fd_pr__pfet_01v8
+x buffer_0.b buffer_0.b buffer_0.b vd d=11600,516 l=200 w=200 x=8902 y=5082 sky130_fd_pr__pfet_01v8
+x sigma-delta_0.in_comp sigma-delta_0.x1.D vd vd s=34800,1316 d=34800,1316 l=30 w=600 x=17210 y=1153 sky130_fd_pr__pfet_01v8
+x sensor_0.b sensor_0.a gnd gnd s=11600,516 d=11600,516 l=200 w=200 x=598 y=418 sky130_fd_pr__nfet_01v8
+x sensor_0.b gnd vtd gnd s=11600,516 d=11600,516 l=200 w=200 x=1738 y=1254 sky130_fd_pr__nfet_01v8
+x a_16356_4420# a_16356_5320# a_16190_3988# gnd s=30240,1004 d=30240,1004 l=900 w=0 x=16356 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x vtd vts vtd vts s=11600,458 d=11600,458 l=200 w=400 x=2084 y=2660 sky130_fd_pr__pfet_01v8
+x a_15881_829# gnd sigma-delta_0.x1.Q gnd s=6760,364 d=6760,364 l=30 w=130 x=16309 y=855 sky130_fd_pr__nfet_01v8
+x sensor_0.b gnd vtd gnd s=11600,516 d=11600,516 l=200 w=200 x=1738 y=418 sky130_fd_pr__nfet_01v8
+x a_15098_2752# a_15098_3152# a_14932_2320# gnd s=30240,1004 d=30240,1004 l=400 w=0 x=15098 y=2752 sky130_fd_pr__res_xhigh_po_0p35
+x a_14791_855# a_15359_1097# a_15706_855# gnd s=3996,197 d=2844,151 l=30 w=72 x=15676 y=855 sky130_fd_pr__nfet_01v8
+x vtd sensor_0.b sensor_0.c vd s=11600,458 d=23200,916 l=200 w=400 x=3388 y=3900 sky130_fd_pr__pfet_01v8
+x buffer_0.b vd out_buff vd s=87000,3058 d=87000,3058 l=200 w=3000 x=11338 y=2282 sky130_fd_pr__pfet_01v8
+x a_15214_4420# a_15214_5320# a_15048_3988# gnd s=30240,1004 d=30240,1004 l=900 w=0 x=15214 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x buffer_0.a vd buffer_0.a vd s=5800,258 d=5800,258 l=200 w=200 x=7756 y=5082 sky130_fd_pr__pfet_01v8
+x vd out s=28113120,21236 l=4880 w=4880 x=740 y=28080 sky130_fd_pr__cap_mim_m3_2
+x a_15881_829# a_16445_855# gnd gnd s=4368,272 d=4010,197 l=30 w=84 x=16497 y=855 sky130_fd_pr__nfet_01v8
+x a_14791_855# a_15706_855# a_15868_1221# vpwr s=2352,140 d=2268,138 l=30 w=84 x=15838 y=1221 sky130_fd_pr__pfet_01v8_hvt
+x a_14625_855# vpwr a_14791_855# vpwr s=3456,182 d=6656,360 l=30 w=128 x=14761 y=1171 sky130_fd_pr__pfet_01v8_hvt
+x buffer_0.a buffer_0.a vd vd s=5800,258 d=5800,258 l=200 w=200 x=7498 y=5082 sky130_fd_pr__pfet_01v8
+x vtd sensor_0.c sensor_0.b vd s=11600,458 d=11600,458 l=200 w=400 x=3130 y=3900 sky130_fd_pr__pfet_01v8
+x a_17020_4420# a_17020_5320# a_16854_3988# gnd s=30240,1004 d=30240,1004 l=900 w=0 x=17020 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x sensor_0.b sensor_0.b gnd gnd s=11600,516 d=11600,516 l=200 w=200 x=2118 y=418 sky130_fd_pr__nfet_01v8
+x vtd vd sensor_0.d vd s=23200,916 d=23200,916 l=200 w=400 x=2194 y=4580 sky130_fd_pr__pfet_01v8
+x buffer_0.a vd buffer_0.a vd s=5800,258 d=5800,258 l=200 w=200 x=7240 y=5082 sky130_fd_pr__pfet_01v8
+x a_14882_4420# a_14882_5320# a_14716_3988# gnd s=30240,1004 d=30240,1004 l=900 w=0 x=14882 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x a_14791_855# a_15046_855# a_15141_855# vpwr s=2604,146 d=2898,153 l=30 w=84 x=15120 y=1221 sky130_fd_pr__pfet_01v8_hvt
+x sensor_0.a sensor_0.c sensor_0.d vd s=11600,458 d=11600,458 l=200 w=400 x=1970 y=3900 sky130_fd_pr__pfet_01v8
+x vts vts vts vts d=23200,916 l=200 w=400 x=2974 y=2660 sky130_fd_pr__pfet_01v8
+x buffer_0.b buffer_0.b buffer_0.b gnd d=9900,366 l=30 w=300 x=8978 y=4310 sky130_fd_pr__nfet_01v8
+x sensor_0.b gnd sensor_0.b gnd s=11600,516 d=11600,516 l=200 w=200 x=2498 y=418 sky130_fd_pr__nfet_01v8
+x sensor_0.b sensor_0.a gnd gnd s=11600,516 d=11600,516 l=200 w=200 x=598 y=1254 sky130_fd_pr__nfet_01v8
+x a_16024_4420# a_16024_5320# sigma-delta_0.in_int gnd s=30240,1004 d=30240,1004 l=900 w=0 x=16024 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x vd out s=28113120,21236 l=4880 w=4880 x=740 y=22800 sky130_fd_pr__cap_mim_m3_2
+x a_14625_855# a_15046_855# a_15141_855# gnd s=2640,149 d=2376,138 l=30 w=72 x=15111 y=855 sky130_fd_pr__nfet_01v8
+x out_sigma out gnd gnd s=23200,916 d=23200,916 l=30 w=400 x=876 y=10550 sky130_fd_pr__nfet_01v8
+x sensor_0.a sensor_0.d sensor_0.c vd s=11600,458 d=23200,916 l=200 w=400 x=2228 y=3900 sky130_fd_pr__pfet_01v8
+x sensor_0.b vtd gnd gnd s=11600,516 d=11600,516 l=200 w=200 x=1358 y=836 sky130_fd_pr__nfet_01v8
+x a_14791_855# a_15141_855# a_15237_855# gnd s=2376,138 d=5604,220 l=30 w=72 x=15207 y=855 sky130_fd_pr__nfet_01v8
+x a_16445_855# vpwr out_sigma vpwr s=6160,267 d=10400,504 l=30 w=200 x=16594 y=1105 sky130_fd_pr__pfet_01v8_hvt
+x a_15881_829# a_16445_855# vpwr vpwr s=6656,360 d=6160,267 l=30 w=128 x=16497 y=1177 sky130_fd_pr__pfet_01v8_hvt
+x vpwr a_15403_855# gnd gnd s=1764,126 d=5384,230 l=30 w=84 x=15445 y=855 sky130_fd_pr__nfet_01v8
+x a_16445_855# gnd out_sigma gnd s=4010,197 d=6760,364 l=30 w=130 x=16594 y=855 sky130_fd_pr__nfet_01v8
+x a_14625_855# a_15359_1097# a_15706_855# vpwr s=5166,237 d=2352,140 l=30 w=84 x=15752 y=1221 sky130_fd_pr__pfet_01v8_hvt
+x a_14550_4420# a_14550_5320# out_buff gnd s=30240,1004 d=30240,1004 l=900 w=0 x=14550 y=4420 sky130_fd_pr__res_xhigh_po_0p35
+x sensor_0.b gnd sensor_0.a gnd s=11600,516 d=11600,516 l=200 w=200 x=978 y=1672 sky130_fd_pr__nfet_01v8
+x a_14932_2752# a_14766_3152# a_14932_2320# gnd s=30240,1004 d=30240,1004 l=400 w=0 x=14932 y=2752 sky130_fd_pr__res_xhigh_po_0p35
+x a_15141_855# vpwr a_15359_1097# vpwr s=8736,440 d=5166,237 l=30 w=168 x=15653 y=1137 sky130_fd_pr__pfet_01v8_hvt
+x gnd gnd gnd gnd d=11600,516 l=200 w=200 x=218 y=1254 sky130_fd_pr__nfet_01v8
+x buffer_0.b vd buffer_0.b vd s=5800,258 d=5800,258 l=200 w=200 x=9418 y=5082 sky130_fd_pr__pfet_01v8
+x out_buff out_buff out_buff vd d=87000,3058 l=200 w=3000 x=11596 y=2282 sky130_fd_pr__pfet_01v8
+C vd buffer_0.a 5.6
+C out_buff out_sigma 2.2
+C out_buff buffer_0.b 2.0
+C vd out 144.8
+C buffer_0.b vd 6.3
+C vd sensor_0.a 2.9
+C sensor_0.a vtd 2.1
+C out_buff vd 5.2
+C sensor_0.b vtd 4.5
+C out_sigma out 5.4
+C vts vtd 7.5
+C vd vtd 3.4
+C out_buff buffer_0.d 35.6
+C vd buffer_0.d 4.1
+C clk0 2.9
+R clk 920
+= clk sigma-delta_0.x1.CLK
+= clk sigma-delta_0.clk
+C ib0 6.3
+R ib 2479
+= ib buffer_0.ib
+C out_buff0 14.1
+R out_buff 51490
+= out_buff buffer_0.out
+= out_buff sigma-delta_0.in
+C out0 60.3
+R out 985
+= out ask-modulator_0.out
+C out_sigma0 14.5
+R out_sigma 2201
+= out_sigma ask-modulator_0.in
+= out_sigma sigma-delta_0.x1.Q_N
+= out_sigma sigma-delta_0.out
+C vpwr0 6.1
+R vpwr 16750
+= vpwr sigma-delta_0.x1.VPWR
+= vpwr sigma-delta_0.x1.RESET_B
+= vpwr sigma-delta_0.x1.VPB
+= vpwr sigma-delta_0.reset_b_dff
+= vpwr sigma-delta_0.vpwr
+C vts0 19.1
+R vts 52913
+= vts buffer_0.in
+= vts sensor_0.vts
+C vd0 102.2
+R vd 221191
+= vd ask-modulator_0.vd
+= vd buffer_0.vd
+= vd sensor_0.vd
+= vd sigma-delta_0.vd
+R a_16060_855# 165
+R a_15815_855# 188
+R a_15403_855# 240
+R a_15237_855# 209
+R a_15868_1221# 306
+R a_15249_1221# 1281
+R a_15046_855# 659
+R a_16445_855# 1583
+R a_15706_855# 1519
+R a_15881_829# 3283
+R a_15141_855# 1631
+R a_15359_1097# 1995
+R a_14791_855# 2660
+C sigma-delta_0.x1.D0 2.6
+R sigma-delta_0.x1.D 3654
+R a_14625_855# 3806
+R a_15762_2752# 11429
+C sigma-delta_0.in_comp0 65.9
+R sigma-delta_0.in_comp 2293
+R a_15596_2320# 401
+R a_15596_2752# 11429
+R a_15430_2752# 11429
+R a_15430_3152# 401
+R a_15264_2320# 401
+R a_15264_2752# 11429
+R a_15098_2752# 11429
+R a_15098_3152# 401
+R a_14932_2320# 401
+R a_14932_2752# 11429
+R a_14766_2752# 11429
+R a_14766_3152# 401
+R a_14600_2320# 401
+R a_14600_2752# 11429
+R sigma-delta_0.x1.Q 1307
+R a_17186_4420# 25714
+R a_17020_4420# 25714
+R a_17020_5320# 401
+R a_16854_3988# 401
+R a_16854_4420# 25714
+R a_16688_4420# 25714
+R a_16688_5320# 401
+R a_16522_3988# 401
+R a_16522_4420# 25714
+R a_16356_4420# 25714
+R a_16356_5320# 401
+R a_16190_3988# 401
+R a_16190_4420# 25714
+R a_16024_4420# 25714
+R a_16024_5320# 401
+C sigma-delta_0.in_int0 60.9
+R sigma-delta_0.in_int 621
+R a_15712_4420# 25714
+R a_15546_4420# 25714
+R a_15546_5320# 401
+R a_15380_3988# 401
+R a_15380_4420# 25714
+R a_15214_4420# 25714
+R a_15214_5320# 401
+R a_15048_3988# 401
+R a_15048_4420# 25714
+R a_14882_4420# 25714
+R a_14882_5320# 401
+R a_14716_3988# 401
+R a_14716_4420# 25714
+R a_14550_4420# 25714
+R a_14550_5320# 401
+R buffer_0.c 2553
+C buffer_0.b0 2.2
+R buffer_0.b 11037
+C buffer_0.a0 2.4
+R buffer_0.a 11029
+C buffer_0.d0 19.9
+R buffer_0.d 53468
+C sensor_0.b0 16.6
+R sensor_0.b 19606
+R sensor_0.c 15623
+C sensor_0.a0 5.4
+R sensor_0.a 12299
+R sensor_0.d 5460
+C vtd0 6.5
+R vtd 22105
+= vtd sensor_0.vtd
+R a_6126_29386# 188
+R a_6126_29818# 28571
+R gnd 318982
+= gnd sigma-delta_0.x1.VNB
+= gnd ask-modulator_0.gnd
+= gnd buffer_0.gnd
+= gnd sensor_0.gnd
+= gnd sigma-delta_0.x1.VGND
+= gnd sigma-delta_0.gnd

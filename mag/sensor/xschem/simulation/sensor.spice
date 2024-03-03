@@ -1,0 +1,28 @@
+** sch_path: /foss/designs/temp-sensor/sensor/xschem/sensor.sch
+.subckt sensor vd vts vtd gnd
+*.PININFO vd:B vts:O vtd:O gnd:B
+XP1 a a vd vd sky130_fd_pr__pfet_01v8 L=1 W=4 nf=2 m=1
+XP2 c a d vd sky130_fd_pr__pfet_01v8 L=1 W=8 nf=4 m=1
+XP3 d vtd vd vd sky130_fd_pr__pfet_01v8 L=1 W=2 nf=1 m=1
+XP4 vts vtd vd vd sky130_fd_pr__pfet_01v8 L=5 W=2 nf=1 m=1
+XP5 b vtd c vd sky130_fd_pr__pfet_01v8 L=1 W=8 nf=4 m=1
+XP6 vtd vtd vts vts sky130_fd_pr__pfet_01v8 L=1 W=16 nf=8 m=1
+XN1 a b gnd gnd sky130_fd_pr__nfet_01v8 L=1 W=1 nf=1 m=8
+XN2 b b gnd gnd sky130_fd_pr__nfet_01v8 L=1 W=1 nf=1 m=8
+XN3 vtd b gnd gnd sky130_fd_pr__nfet_01v8 L=1 W=1 nf=1 m=8
+XPD0 vd vd vd vd sky130_fd_pr__pfet_01v8 L=1 W=2 nf=1 m=1
+XPD1 vd vd vd vd sky130_fd_pr__pfet_01v8 L=1 W=2 nf=1 m=1
+XPD2 c c c vd sky130_fd_pr__pfet_01v8 L=1 W=2 nf=1 m=1
+XPD3 vts vts vts vts sky130_fd_pr__pfet_01v8 L=1 W=2 nf=1 m=1
+XPD4 vts vts vts vts sky130_fd_pr__pfet_01v8 L=1 W=2 nf=1 m=1
+XPD5 vd vd vd vd sky130_fd_pr__pfet_01v8 L=1 W=2 nf=1 m=1
+XN4 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 L=1 W=1 nf=1 m=1
+XN5 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 L=1 W=1 nf=1 m=1
+XN6 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 L=1 W=1 nf=1 m=1
+XN7 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 L=1 W=1 nf=1 m=1
+XN8 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 L=1 W=1 nf=1 m=1
+XN9 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 L=1 W=1 nf=1 m=1
+XN10 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 L=1 W=1 nf=1 m=1
+XN11 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 L=1 W=1 nf=1 m=1
+.ends
+.end

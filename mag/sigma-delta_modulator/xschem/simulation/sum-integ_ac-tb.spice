@@ -1,0 +1,48 @@
+** sch_path:
+*+ /home/hugodg/projects-sky130/temp-sensor/sigma-delta_modulator/xschem/sum-integ_ac-tb.sch
+**.subckt sum-integ_ac-tb
+XC1 in_comp GND sky130_fd_pr__cap_mim_m3_1 W=27.196 L=27.196 MF=1 m=1
+XR2 in1 in_comp GND sky130_fd_pr__res_xhigh_po_0p35 L=15 mult=1 m=1
+x2 vd out_comp vpwr gnd_d gnd_d vpwr vpwr out net1 sky130_fd_sc_hd__dfrbp_1
+XP1 out_comp in_comp vd vd sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XN1 out_comp in_comp GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XR1 in_comp in2 GND sky130_fd_pr__res_xhigh_po_0p35 L=37 mult=1 m=1
+vin in1 GND AC 1
+VDD vd GND 1.8
+vpwr vpwr GND 1.8
+vgndd gnd_d GND 0
+vin1 in2 GND dc 1
+**** begin user architecture code
+
+*cmd step stop
+
+.ac dec 2000 1 100Meg
+.end
+
+.control
+set units=degrees
+set color0=white
+set color1=black
+
+destroy all
+run
+let gain = db(abs(in_comp/IN1))
+let gain_3db = maximum(gain)-3
+*Magnitude
+plot  gain gain_3db ylabel 'dB'
+**Fase em graus
+*let phase_out=(ph(in_comp)-ph(IN1))
+*plot  phase_out 60 ylabel 'Degrees'
+.endc
+
+ .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end
